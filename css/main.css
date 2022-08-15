@@ -258,23 +258,14 @@
     text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
 }
 
-/*.s-prjam{*/
-/*    position: relative;*/
-/*    top: -314px;*/
-/*    left: 148px;*/
-/*    width: 71px;*/
-/*    height: 116px;*/
-/*    !*background: #C4C4C4;*!*/
-/*    z-index: -1;*/
-/*}*/
 
 .div-urn{
     position: absolute;
     width: 178px;
     height: 40px;
     background: white;
-    border-radius: 0px 0px 12px 12px;
-    padding-left: 0px;
+    border-radius: 0 0 12px 12px;
+    padding-left: 0;
     margin-top: -219px;
     z-index: 0;
 }
@@ -283,10 +274,6 @@
     transform: translateY(30px);
 
 }
-/*.user-card:hover .s-prjam {                  !*появляется серый прямоугольник справа сверху при наведении на карточку-НЕ НУЖЕН*!*/
-/*    z-index: 2;*/
-/*    display: block;*/
-/*}*/
 
 .div-card{
     position: relative;;
@@ -297,21 +284,19 @@
     z-index: 1;
 }
 
-.btn.remove {                                 /*невидимая кнопка под урной*/
+.btn.remove {
     position: absolute;
     right: 80px;
     top: -297px;
     width: 28px;
     height: 28px;
-    /*background: yellow;*/
     border-radius: 50%;
     border: medium none;
     background-image: none;
     background: transparent;
-
 }
 
-.square-ruchka{                              /*рукоятка нарисованой урны*/
+.square-ruchka{
     position: absolute;
     height: 3.12px;
     width: 7.81px;
@@ -321,14 +306,14 @@
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
-.horizont-line{                               /*горизонтальная линия крыщки урны*/
+.horizont-line{
     position: absolute;
     width: 18px;
     left: 77px;
     top: 16px;
     border: 2px solid #F178B6;
 }
-.square {                                     /*квадратное тело урны*/
+.square {
     position: absolute;
     height: 15.62px;
     width: 14.06px;
@@ -337,16 +322,14 @@
     border: 2px solid #F178B6;
 }
 
-.vertical-line {                          /*внутренняя вертикальная линия урны*/
-
+.vertical-line {
     height: 7px;
     position: absolute;
     left: 82px;
     top: 22px;
     border: 2px solid #F178B6;
 }
-.vertical-line1 {                                /*внутренняя вертикальная линия урны*/
-
+.vertical-line1 {
     height: 7px;
     position: absolute;
     left: 90px;
